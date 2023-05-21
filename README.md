@@ -6,4 +6,4 @@
   <li>executar o comando <strong>firebase init</strong> para configurar o projeto em um diretório local</li>  
    <li>executar o comando <strong>firebase server</strong> para executar o projeto</li>  
 </ul>
-<p>Com os comandos acima é possível criar um novo projeto com Firebase e </p>
+<p>Com os comandos acima é possível criar um novo projeto com Firebase. Todas as configurações necessárias para conectar com o banco são obtidas de forma automática no momento da criação do projeto.</p>
