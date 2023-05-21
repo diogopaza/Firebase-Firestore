@@ -1,6 +1,6 @@
 document
-  .getElementById("postForm")
-  .addEventListener("submit", function (event) {
+  .getElementById("postForm")    //busca o elemento com o id postForm
+  .addEventListener("submit", function (event) { //fica escutando o evento submit, quando ele for acionado chama uma função callback
     event.preventDefault();
     const text = document.getElementById("postText").value;
     const post = {
