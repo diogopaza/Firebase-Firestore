@@ -1,9 +1,9 @@
 document
   .getElementById("postForm")    //busca o elemento com o id postForm
   .addEventListener("submit", function (event) { //fica escutando o evento submit, quando ele for acionado chama uma função callback
-    event.preventDefault();
-    const text = document.getElementById("postText").value;
-    const post = {
+    event.preventDefault(); //muda o comportamento padrão do fórmulário e não envia os dados
+    const text = document.getElementById("postText").value; // captura o texto do elemento com o id postText
+    const post = { // cria um novo objeto com os campos definidos dentro das chaves
       text: text,
       user_id: "diogo",
       likes: 0,
